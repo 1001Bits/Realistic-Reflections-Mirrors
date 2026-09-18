@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "realistic-reflections-mirrors",
+  "version-string": "1.0.0",
+  "description": "Real-time planar mirror reflections for Skyrim SE 1.5.97 and AE 1.7.104",
+  "dependencies": [
+    "directxmath",
+    "directxtk",
+    "fmt",
+    "spdlog",
+    "rapidcsv",
+    "nlohmann-json",
+    "xbyak",
+    "detours"
+  ]
+}

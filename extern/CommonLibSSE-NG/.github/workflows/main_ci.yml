@@ -1,0 +1,71 @@
+name: Main CI
+
+on:
+  push:
+    branches: [ main, ng ]
+    paths:
+      - '.github/workflows/main_ci.yml'
+      - 'cmake/**'
+      - 'include/**'
+      - 'src/**'
+      - 'tests/**'
+      - 'CMakeLists.txt'
+      - 'CMakePresets.json'
+      - 'vcpkg.json'
+  pull_request:
+    branches: [ vr, ng, feature/* ]
+  workflow_dispatch:
+
+jobs:
+  build-and-test-vcpkg:
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        build-type:
+          - debug
+          - release
+        runtime:
+          - all
+          - flatrim
+          - ae
+          - se
+          - vr
+        compiler:
+          - msvc
+          - clang-cl
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          path: main
+          submodules: recursive
+
+      - name: Extract vcpkg baseline from vcpkg.json
+        id: get_vcpkg_baseline
+        shell: pwsh
+        run: |
+          $vcpkgJson = Get-Content main/vcpkg.json | ConvertFrom-Json
+          $baseline = $vcpkgJson.'builtin-baseline'
+          echo "baseline=$baseline" >> $env:GITHUB_OUTPUT
+          echo "✓ Using vcpkg baseline from vcpkg.json: $baseline"
+
+      - name: Setup MSVC Environment
+        uses: ilammy/msvc-dev-cmd@v1
+
+      - name: Setup vcpkg
+        uses: lukka/run-vcpkg@v11
+        with:
+          vcpkgGitCommitId: ${{ steps.get_vcpkg_baseline.outputs.baseline }}
+
+      - name: Build
+        uses: lukka/run-cmake@v10
+        with:
+          cmakeListsTxtPath: ${{ github.workspace }}/main/CMakeLists.txt
+          configurePreset: build-${{ matrix.build-type }}-${{ matrix.compiler }}-vcpkg-${{ matrix.runtime }}
+          buildPreset: ${{ matrix.build-type }}-${{ matrix.compiler }}-vcpkg-${{ matrix.runtime }}
+
+      - name: Unit tests
+        timeout-minutes: 5
+        working-directory: ${{ github.workspace }}/main/build/${{ matrix.build-type }}-${{ matrix.compiler }}-vcpkg-${{ matrix.runtime }}
+        run: .\CommonLibSSETests.exe

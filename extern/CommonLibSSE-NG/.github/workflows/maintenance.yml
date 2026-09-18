@@ -1,0 +1,46 @@
+name: Scripted maintenance
+
+on:
+  push:
+    branches: [ ng ]
+  pull_request:
+    branches: [ ng ]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  maintenance:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref || github.ref_name }}
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Run clang-format
+      run: find -type f \( -name '*.h' -o -name '*.cpp' \) | xargs clang-format-16 -style=file -i
+
+    - name: Generate CMake file lists
+      run: python ${{ github.workspace }}/scripts/cmake_generate.py
+
+    - name: Check for changes
+      id: verify_diff
+      run: |
+        git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+
+    - name: Commit and push changes
+      if: |
+        steps.verify_diff.outputs.changed == 'true' &&
+        (github.event_name == 'push' || 
+         github.event.pull_request.head.repo.full_name == github.repository)
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "style: apply automated maintenance (formatting & file lists)"
+        commit_options: '--no-verify'
