@@ -1,0 +1,32 @@
+{
+  "library": "three",
+  "version": "0.180.0",
+  "license": "MIT",
+  "changes": "Local core import path only; no runtime network access.",
+  "files": [
+    {
+      "file": "three.core.js",
+      "url": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.core.min.js",
+      "bytes": 381124,
+      "sha256": "61ba0df005b05991361d040d8ff670e1aadfd0ce7aeebd1fdb0725957a8957de"
+    },
+    {
+      "file": "three.module.js",
+      "url": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.min.js",
+      "bytes": 338900,
+      "sha256": "16e8727a664785683044d8164615da974d906a825521e3e05011bfd4440203e2"
+    },
+    {
+      "file": "OrbitControls.js",
+      "url": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/controls/OrbitControls.js",
+      "bytes": 38703,
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+    },
+    {
+      "file": "LICENSE.three.txt",
+      "url": "https://cdn.jsdelivr.net/npm/three@0.180.0/LICENSE",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    }
+  ]
+}

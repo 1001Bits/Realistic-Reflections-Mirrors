@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "package": "RealisticReflections-Creators-20260919.zip",
+  "packageSHA256": "2C2788D0533125BE53F1312F023713006304BFE707860D74D49C466CD36D2F1D",
+  "packageMirrorCreatorPrefix": "RealisticReflections-Creators/Mirror Creator/",
+  "sourceFiles": {
+    "README.txt": {
+      "bytes": 2687,
+      "sha256": "64C308F8F252D11B08B94B705AE63F77DF29E6FD80BF978440712B64B3F031F2"
+    },
+    "Start Mirror Creator.cmd": {
+      "bytes": 125,
+      "sha256": "C696412AEB2CBC6FEAFC96647265D1292C055788DCA5850B9C8780CBB785F16B"
+    },
+    "dist/Data/meshes/mirrors_of_skyrim/mirror01.nif": {
+      "bytes": 53189,
+      "sha256": "87D404F086D5B938A03C2FD08F649725C239511EB6C369FC2BF49ADD12E9612F"
+    },
+    "docs/MIRROR_CREATOR_PREVIEW.md": {
+      "bytes": 9403,
+      "sha256": "57B28CDD4372A9CB09FBA0941C07224D0FE539A2489FD6032898E898F71A02F9"
+    },
+    "docs/MIRROR_CREATOR_SHIFT_SELECTION.md": {
+      "bytes": 3890,
+      "sha256": "C6E3312F48EE3092A344AA1E2A90A527D801C9D699CFF57601D92D6AB2618AF3"
+    },
+    "docs/MIRROR_NIF_AUTHORING.md": {
+      "bytes": 7047,
+      "sha256": "2671C89CD53429AB41069B779C9DADAABF29AA04607C627AF8086A41E32E241F"
+    },
+    "prototypes/hand-mirror/gilded-noble-round-filigree-v1/nifs/male-world.nif": {
+      "bytes": 22053,
+      "sha256": "BD41A3395286866E2D2E685B158E9869680CC75ED4CDA9F2D3D2B3CA7234AE12"
+    },
+    "tests/mirror_creator_areas_browser_smoke.py": {
+      "bytes": 6519,
+      "sha256": "565A09793CC9461E470717DF9826317852C4F3F1FC0D083CDB7AC546CD4173CE"
+    },
+    "tests/mirror_creator_browser_smoke.py": {
+      "bytes": 9035,
+      "sha256": "966DCCD4F01E09A5B1ED4E19E34CC63BEA43E68C45FD822F3EB60934BFD5017B"
+    },
+    "tests/mirror_creator_ck_parts_browser_smoke.py": {
+      "bytes": 5687,
+      "sha256": "DA412DE5A4DA6CBCB7905ADAC137BDE95E41B55D7BC62D1BABA6C75F6B82E053"
+    },
+    "tests/test_mirror_creator.py": {
+      "bytes": 13765,
+      "sha256": "0BD1B2D8B766062AD0EF5B312E0A951B2F27CDCCE6C180911BDD0577030217B8"
+    },
+    "tests/test_mirror_creator_areas.py": {
+      "bytes": 7793,
+      "sha256": "D92DC3A8AAC9857868689957A4BA0EF278DECB64910C3B1B58A161FB739AB19F"
+    },
+    "tests/test_mirror_creator_ck_parts.py": {
+      "bytes": 3449,
+      "sha256": "D5F744B5733DA4AB3143FED3558D748159242CC6049330697404D30D0C4B6D18"
+    },
+    "tests/test_mirror_creator_export.py": {
+      "bytes": 7670,
+      "sha256": "FBF29C2CD44D4FB61C809B0AD39F444E6928CA9E2828CA54F11A65D0E81A2902"
+    },
+    "tools/Start-MirrorCreator.ps1": {
+      "bytes": 2419,
+      "sha256": "12DAC57100EE680F79AB9CF6B807A9CD3FB0B4DBDFAECF6EEFBFEA25B0F0FACC"
+    },
+    "tools/mirror_creator.py": {
+      "bytes": 9554,
+      "sha256": "099D03A480D0CF732236F5895BECF08A293B3FA757C36905DCC645CF74A43381"
+    },
+    "tools/mirror_creator_areas.py": {
+      "bytes": 9801,
+      "sha256": "F8C1AB470D07790AE04522A8878FC7600E615DA0348D27EE891907B0E672C371"
+    },
+    "tools/mirror_creator_core.py": {
+      "bytes": 18548,
+      "sha256": "77A79CC0F165DC11A8014A7D1038C36A9AF1405DD0770C462E6240692D1FB698"
+    },
+    "tools/mirror_creator_export.py": {
+      "bytes": 9779,
+      "sha256": "55A3BC739B4E077FA0BB7F425BCA399C4AF0B0A9146D44D93D40D73BC31F46B7"
+    },
+    "tools/mirror_creator_web/app.js": {
+      "bytes": 16063,
+      "sha256": "E26C8AE44EB67DF668F9AD6FD34D5AA9E47A1376A263A656ACFE8B1249E18FCB"
+    },
+    "tools/mirror_creator_web/index.html": {
+      "bytes": 1377,
+      "sha256": "6DAFA75B9BD08D52E2BBAAF0CF4979CD0A4DDFCAC9264F5E7535E3B35CA8440C"
+    },
+    "tools/mirror_creator_web/style.css": {
+      "bytes": 2723,
+      "sha256": "3DBCB484B2B9061298C532E2A56B776AA4E6C6FBE352F0064703D196A268CF26"
+    },
+    "tools/mirror_creator_web/vendor/LICENSE.three.txt": {
+      "bytes": 1081,
+      "sha256": "BFE119EA4FD413F5F7CA3FCD63ADB0C4A073ED39DAA2FE7D3E6B769E21272601"
+    },
+    "tools/mirror_creator_web/vendor/OrbitControls.js": {
+      "bytes": 38703,
+      "sha256": "B97879C748170BAADEB3FB84CEA1FFDF4674E283DC06042F34E2ACB95A76042C"
+    },
+    "tools/mirror_creator_web/vendor/provenance.json": {
+      "bytes": 1127,
+      "sha256": "84CCF465781D7106283DF18BA916563C37356B3865FC902FE4DD8636CBE0093A"
+    },
+    "tools/mirror_creator_web/vendor/three.core.js": {
+      "bytes": 381124,
+      "sha256": "61BA0DF005B05991361D040D8FF670E1AADFD0CE7AEEBD1FDB0725957A8957DE"
+    },
+    "tools/mirror_creator_web/vendor/three.module.js": {
+      "bytes": 338900,
+      "sha256": "16E8727A664785683044D8164615DA974D906A825521E3E05011BFD4440203E2"
+    },
+    "tools/nif_block_edit.py": {
+      "bytes": 10675,
+      "sha256": "1F7F3CD347B8A197381FD1AFE2084D25A9D0A08DC866B4366221EDAC23C672AB"
+    },
+    "tools/package_mirror_creator.py": {
+      "bytes": 7378,
+      "sha256": "3348A48C7EB71A3F9CFC0EC9DA438A45F2D17B0087C8BF2E6302DFD1562D1B02"
+    }
+  },
+  "sourceFilesByteIdenticalToPackage": true,
+  "pythonVersion": "3.14.7",
+  "pythonDownload": "https://www.python.org/ftp/python/3.14.7/python-3.14.7-embed-amd64.zip",
+  "pythonArchiveSHA256": "D297E5FF019966817AD8502465176139F2D3D840FA4ED84B13BED399A6AB1F15",
+  "pythonSource": "https://github.com/python/cpython/tree/v3.14.7",
+  "runtimeFiles": {
+    "runtime/LICENSE.txt": {
+      "bytes": 35407,
+      "sha256": "935CF13E19F8C31B497D20B05D73623431A226B230C3599BC30FA3348979BC68",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_asyncio.pyd": {
+      "bytes": 78048,
+      "sha256": "F9594A2A4F45570DBFDF1F3471194AE7B27DC117C54B9AF6BC22DF9C93830F8B",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_bz2.pyd": {
+      "bytes": 88288,
+      "sha256": "B938073C85CF6B9FE80556D7899ED1901E5E60B7ADEA2832442376239FB36B36",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_ctypes.pyd": {
+      "bytes": 142560,
+      "sha256": "408CC4E7A22FFA418CA52F5E13FE9268A3C50A2BC9DE02B0530B555EF591BC5A",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_decimal.pyd": {
+      "bytes": 291552,
+      "sha256": "BC3A61685825AE37A4CD2B2B87FA27AF12E01575C4F920788EA806E6781A2C79",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_elementtree.pyd": {
+      "bytes": 138976,
+      "sha256": "D8A17F9C831E313B440E19E0D26E6C0E7ED830FF1F657887CBC26664D6EF4973",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_hashlib.pyd": {
+      "bytes": 69344,
+      "sha256": "5933EF5EDA7C0BCA0B3874A6E2C5F13B91B8F2CFC29BC46160DF3212A1DBEE79",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_lzma.pyd": {
+      "bytes": 160992,
+      "sha256": "D2ABF8DB7FB0CF6285663B177991691A41B37E215C3D71FD087A98D8EC1BEE63",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_multiprocessing.pyd": {
+      "bytes": 38624,
+      "sha256": "CEA83C9BF3131D079C20066B626F67AB33021B476777BE2D7BE26D1FA5E4EB66",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_overlapped.pyd": {
+      "bytes": 58080,
+      "sha256": "1D7028683E6EC50C159139238F90A6C8431ECE139A4764900CA11C941BA05D46",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_queue.pyd": {
+      "bytes": 36576,
+      "sha256": "2FD8668F52B34D0E71AE48784BD2E7D35E5D99DF6F641EDB0FC279235A187C8E",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_remote_debugging.pyd": {
+      "bytes": 93408,
+      "sha256": "32B58C85E29ECC2378EDDFE367745998FDB131E1AB6BB84D54E16F33806B584C",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_socket.pyd": {
+      "bytes": 87776,
+      "sha256": "02265DD0D0287F3FFD287EA5D8E3C918A5A056E8EF2C4529857F5E84EC9E2519",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_sqlite3.pyd": {
+      "bytes": 132832,
+      "sha256": "EC9694E5929747E93E05BC32427D24350DC4DE5074B61A37BC961C3048794A67",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_ssl.pyd": {
+      "bytes": 190688,
+      "sha256": "4CFB154C7CC525D57020C0E64F2DD876A78B46CD38419446392478DE6B7B13B8",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_uuid.pyd": {
+      "bytes": 28384,
+      "sha256": "FBFD7FE8583B346BA20B174B2510C0830237F5092BDF9FC26DA9D6B25B018385",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_wmi.pyd": {
+      "bytes": 40160,
+      "sha256": "B6FD41F079DA0C0054829855360E88B8B762F5C42BB474C2FA02EAE367839AD2",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_zoneinfo.pyd": {
+      "bytes": 51936,
+      "sha256": "07469C7FC221663E423A2E6023A5B2EAD3B10D0B40EB297887F4447A1FF1B2A3",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/_zstd.pyd": {
+      "bytes": 503520,
+      "sha256": "33C6ECA99470C3EB9D776B617C550AD41B002A668336F062A9AB7BE677A7409A",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/libcrypto-3.dll": {
+      "bytes": 6242552,
+      "sha256": "53C529145339FB042A3DCD3A09C2D7753204F8B4FC79D99E0D31E69A33985958",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/libffi-8.dll": {
+      "bytes": 39696,
+      "sha256": "EFF52743773EB550FCC6CE3EFC37C85724502233B6B002A35496D828BD7B280A",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/libssl-3.dll": {
+      "bytes": 1329912,
+      "sha256": "B17A87979862D19241EDC4318F967E24C3EC356ED6C2368F561179FAB2311001",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/libtommath.dll": {
+      "bytes": 95456,
+      "sha256": "BF18448A56DE62E56ADB5A50040C08648F0BCF556217DE90ECA283490EE8C0C3",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/pyexpat.pyd": {
+      "bytes": 222944,
+      "sha256": "E34347C4E11B2ECC57DF2CE1627BA7F98FD076E9DF59951E9034F5AA8E95A2FC",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/python.cat": {
+      "bytes": 600973,
+      "sha256": "BD98C1A5ACC6DC6850425221A755506571EAC182CB0AA85F2F45A9A077A3C71B",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/python.exe": {
+      "bytes": 106208,
+      "sha256": "4942B86A6597E5AEE0128DAA00050ED79BC21F6E709A78EB19CBFEB0C2F39AC9",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/python3.dll": {
+      "bytes": 73952,
+      "sha256": "6C45910E7C82617CA6360820DE861699CC99F9EFEE434DF290AA4C6E38F39886",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/python314._pth": {
+      "bytes": 25,
+      "sha256": "E81A54C0324243E7D8A8F488448777CC850F8E4076BC33DD75B7042915E27499",
+      "upstreamBytesIdentical": false
+    },
+    "runtime/python314.dll": {
+      "bytes": 6785760,
+      "sha256": "0F9857FFDFE010FE6B99328D58C2E3C7472CE75F336BF9C2AD9BD5BCA3BCE700",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/python314.zip": {
+      "bytes": 4138882,
+      "sha256": "5A7A66DAF1A2C2E3C8D7A4A0D095685EC301EFC3EF28CC2419E3041BF5729B65",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/pythonw.exe": {
+      "bytes": 104672,
+      "sha256": "C197268F7E7CF2848B8C1AE59BBD0E0C14DEFE668A2D365302137EA929B47769",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/select.pyd": {
+      "bytes": 33504,
+      "sha256": "722328E7FAD8048057FC966474BA73966D2CEEBAA32E7344CCE09640AB4DC9BD",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/sqlite3.dll": {
+      "bytes": 1584864,
+      "sha256": "D3E60DD22E62C9FBDB64B31B1B8C48782E1D4958D04D0BF830CFFD31ACE3275F",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/unicodedata.pyd": {
+      "bytes": 759008,
+      "sha256": "280B09BD97B598D18C0ED9542DC18ED35FA57A16E84F8E65FD9C6E96516C28D6",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/vcruntime140.dll": {
+      "bytes": 178616,
+      "sha256": "D1F4225DF2CD877DBF130D5668A021DCE3F94118455FF5EC952061C30AFC9CE7",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/vcruntime140_1.dll": {
+      "bytes": 50112,
+      "sha256": "A7146C08F89FE5B04541AB507CDB59FF7B44534D4BA3C668A426C6450A03434E",
+      "upstreamBytesIdentical": true
+    },
+    "runtime/winsound.pyd": {
+      "bytes": 32992,
+      "sha256": "6A27340660DE89D5DA59445A77AC6B08D471E373304CE7294C198238F09F2DC2",
+      "upstreamBytesIdentical": true
+    }
+  },
+  "runtimeConfigurationChange": "python314._pth adds ../tools; executable and library bytes are unchanged"
+}

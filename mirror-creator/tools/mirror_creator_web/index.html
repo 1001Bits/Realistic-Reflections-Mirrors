@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mirror Creator</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/style.css">
+  <script type="importmap">{"imports":{"three":"/vendor/three.module.js"}}</script>
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="toolbar">
+    <button id="load">Select NIF</button>
+    <button id="save" class="primary" disabled>Save</button>
+    <p class="hint">hold shift to select multiple parts</p>
+  </header>
+  <main id="viewport">
+    <canvas id="canvas" aria-label="Click the mirror pane to select it. Shift-click to add or remove areas on the same plane. Drag to rotate, right-drag to pan, scroll to zoom."></canvas>
+    <div id="empty" aria-hidden="true"><svg viewBox="0 0 80 100"><rect x="12" y="6" width="56" height="88" rx="28"/><path d="M28 52l20-20m-14 36 18-18"/></svg></div>
+    <div id="drop-overlay" hidden aria-hidden="true"></div>
+    <div id="feedback">
+      <div id="ck-selection" role="status" aria-live="polite" aria-atomic="true" hidden>
+        <div id="ck-parts"></div>
+        <div id="ck-note" hidden></div>
+      </div>
+      <div id="message" role="alert" hidden></div>
+    </div>
+  </main>
+  <input id="nif-input" type="file" accept=".nif" hidden>
+</body>
+</html>

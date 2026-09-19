@@ -1,0 +1,2 @@
+# Preserve the exact bytes recorded in source-manifest.json on every platform.
+* -text whitespace=trailing-space,space-before-tab,cr-at-eol
