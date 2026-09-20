@@ -1,0 +1,1444 @@
+{
+  "plugin": "Realistic Reflections - Mirrors.esm",
+  "models": [
+    {
+      "name": "CabinetWall",
+      "design": "Cabinet",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\CabinetWall.nif",
+      "form_id": 2048,
+      "pane": {
+        "center": [
+          0.0,
+          -0.7734375,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          15.73828125,
+          42.296875
+        ],
+        "ellipse": false
+      },
+      "bounds": [
+        [
+          -16.17578125,
+          -0.7734375,
+          -43.171875
+        ],
+        [
+          16.18359375,
+          0.0,
+          43.203125
+        ]
+      ],
+      "parts": [
+        {
+          "name": "CabinetWall Head",
+          "collision_node": "CabinetWall",
+          "center": [
+            0.00390625,
+            -0.38671875,
+            0.015625
+          ],
+          "half": [
+            16.1796875,
+            0.38671875,
+            43.1875
+          ],
+          "triangles": 18
+        }
+      ],
+      "size": "Small",
+      "scale": 1.0
+    },
+    {
+      "name": "CabinetStanding",
+      "design": "Cabinet",
+      "placement": "Standing",
+      "buildable": false,
+      "model": "MirrorsOfFallout\\Workshop\\CabinetStanding.nif",
+      "form_id": 2049,
+      "pane": {
+        "center": [
+          0.0,
+          0.0,
+          118.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          15.73828125,
+          21.1484375
+        ],
+        "ellipse": false
+      },
+      "bounds": [
+        [
+          -23.23828125,
+          -5.71328125,
+          0.0
+        ],
+        [
+          25.01171875,
+          14.28671875,
+          144.1484375
+        ]
+      ],
+      "parts": [
+        {
+          "name": "CabinetStanding Head",
+          "collision_node": "CabinetStanding Head",
+          "center": [
+            0.88671875,
+            -0.951171875,
+            117.8671875
+          ],
+          "half": [
+            24.125,
+            3.837890625,
+            26.28125
+          ],
+          "triangles": 1414
+        },
+        {
+          "name": "CabinetStanding Post",
+          "collision_node": "CabinetStanding Post",
+          "center": [
+            0.0,
+            4.28671875,
+            49.79296875
+          ],
+          "half": [
+            1.4,
+            1.4,
+            46.79296875
+          ],
+          "triangles": 12
+        },
+        {
+          "name": "CabinetStanding Foot",
+          "collision_node": "CabinetStanding Foot",
+          "center": [
+            0.0,
+            4.28671875,
+            1.5
+          ],
+          "half": [
+            10.229882812,
+            10.0,
+            1.5
+          ],
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "name": "RoundWall",
+      "design": "Round",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\RoundWall.nif",
+      "form_id": 2050,
+      "pane": {
+        "center": [
+          0.0,
+          -3.636843504,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          17.2,
+          17.2
+        ],
+        "ellipse": true
+      },
+      "bounds": [
+        [
+          -18.655831422,
+          -3.7159163139999998,
+          -18.661554842
+        ],
+        [
+          18.614322154,
+          0.0,
+          18.625483502
+        ]
+      ],
+      "parts": [
+        {
+          "name": "RoundWall Head",
+          "collision_node": "RoundWall",
+          "center": [
+            -0.020754633999999328,
+            -1.8579581569999999,
+            -0.018035669999999726
+          ],
+          "half": [
+            18.635076788,
+            1.8579581569999999,
+            18.643519172
+          ],
+          "triangles": 188
+        }
+      ],
+      "size": "Small",
+      "scale": 1.0
+    },
+    {
+      "name": "RoundStanding",
+      "design": "Round",
+      "placement": "Standing",
+      "buildable": false,
+      "model": "MirrorsOfFallout\\Workshop\\RoundStanding.nif",
+      "form_id": 2051,
+      "pane": {
+        "center": [
+          0.0,
+          0.0,
+          118.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          8.6,
+          8.6
+        ],
+        "ellipse": true
+      },
+      "bounds": [
+        [
+          -9.327915711,
+          -6.781578248000001,
+          0.0
+        ],
+        [
+          9.307161077,
+          13.218421752,
+          127.312741751
+        ]
+      ],
+      "parts": [
+        {
+          "name": "RoundStanding Head",
+          "collision_node": "RoundStanding Head",
+          "center": [
+            -0.010377316999999664,
+            0.8894426735,
+            117.990982165
+          ],
+          "half": [
+            9.317538394,
+            0.9289790784999999,
+            9.321759586
+          ],
+          "triangles": 188
+        },
+        {
+          "name": "RoundStanding Post",
+          "collision_node": "RoundStanding Post",
+          "center": [
+            0.0,
+            3.218421752,
+            58.3346112895
+          ],
+          "half": [
+            1.4,
+            1.4,
+            55.33461129
+          ],
+          "triangles": 12
+        },
+        {
+          "name": "RoundStanding Foot",
+          "collision_node": "RoundStanding Foot",
+          "center": [
+            0.0,
+            3.218421752,
+            1.5
+          ],
+          "half": [
+            7.0,
+            10.0,
+            1.5
+          ],
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "name": "VanityWall",
+      "design": "Vanity",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\VanityWall.nif",
+      "form_id": 2052,
+      "pane": {
+        "center": [
+          0.0,
+          -1.709558658,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          10.92578125,
+          6.853985731
+        ],
+        "ellipse": false
+      },
+      "bounds": [
+        [
+          -15.87890625,
+          -3.178695843,
+          -14.218036185000003
+        ],
+        [
+          15.39453125,
+          0.0,
+          10.931692716
+        ]
+      ],
+      "parts": [
+        {
+          "name": "VanityWall Head",
+          "collision_node": "VanityWall",
+          "center": [
+            -0.2421875,
+            -1.5893479215,
+            -1.6431717345
+          ],
+          "half": [
+            15.63671875,
+            1.5893479215,
+            12.574864450500002
+          ],
+          "triangles": 118
+        }
+      ]
+    },
+    {
+      "name": "VanityStanding",
+      "design": "Vanity",
+      "placement": "Standing",
+      "buildable": false,
+      "model": "MirrorsOfFallout\\Workshop\\VanityStanding.nif",
+      "form_id": 2053,
+      "pane": {
+        "center": [
+          0.0,
+          0.0,
+          118.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          10.92578125,
+          6.853985731
+        ],
+        "ellipse": false
+      },
+      "bounds": [
+        [
+          -15.87890625,
+          -6.890441342,
+          0.0
+        ],
+        [
+          15.39453125,
+          13.109558658000001,
+          128.931692716
+        ]
+      ],
+      "parts": [
+        {
+          "name": "VanityStanding Head",
+          "collision_node": "VanityStanding Head",
+          "center": [
+            -0.2421875,
+            0.12021073650000003,
+            116.3568282655
+          ],
+          "half": [
+            15.63671875,
+            1.5893479215,
+            12.574864450500002
+          ],
+          "triangles": 118
+        },
+        {
+          "name": "VanityStanding Post",
+          "collision_node": "VanityStanding Post",
+          "center": [
+            0.0,
+            3.109558658,
+            55.8909819075
+          ],
+          "half": [
+            1.4,
+            1.4,
+            52.890981907
+          ],
+          "triangles": 12
+        },
+        {
+          "name": "VanityStanding Foot",
+          "collision_node": "VanityStanding Foot",
+          "center": [
+            0.0,
+            3.109558658,
+            1.5
+          ],
+          "half": [
+            7.101757812,
+            10.0,
+            1.5
+          ],
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "name": "CabinetWallMedium",
+      "design": "Cabinet",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\CabinetWallMedium.nif",
+      "form_id": 2054,
+      "pane": {
+        "center": [
+          0.0,
+          -1.16015625,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          23.607421875,
+          63.4453125
+        ],
+        "ellipse": false
+      },
+      "bounds": [
+        [
+          -24.263671875,
+          -1.16015625,
+          -64.7578125
+        ],
+        [
+          24.275390625,
+          0.0,
+          64.8046875
+        ]
+      ],
+      "parts": [
+        {
+          "name": "CabinetWallMedium Head",
+          "collision_node": "CabinetWallMedium",
+          "center": [
+            0.005859375,
+            -0.580078125,
+            0.0234375
+          ],
+          "half": [
+            24.26953125,
+            0.580078125,
+            64.78125
+          ],
+          "triangles": 18
+        }
+      ],
+      "size": "Medium",
+      "scale": 1.5
+    },
+    {
+      "name": "CabinetWallLarge",
+      "design": "Cabinet",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\CabinetWallLarge.nif",
+      "form_id": 2055,
+      "pane": {
+        "center": [
+          0.0,
+          -1.546875,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          31.4765625,
+          84.59375
+        ],
+        "ellipse": false
+      },
+      "bounds": [
+        [
+          -32.3515625,
+          -1.546875,
+          -86.34375
+        ],
+        [
+          32.3671875,
+          0.0,
+          86.40625
+        ]
+      ],
+      "parts": [
+        {
+          "name": "CabinetWallLarge Head",
+          "collision_node": "CabinetWallLarge",
+          "center": [
+            0.0078125,
+            -0.7734375,
+            0.03125
+          ],
+          "half": [
+            32.359375,
+            0.7734375,
+            86.375
+          ],
+          "triangles": 18
+        }
+      ],
+      "size": "Large",
+      "scale": 2.0
+    },
+    {
+      "name": "RoundWallMedium",
+      "design": "Round",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\RoundWallMedium.nif",
+      "form_id": 2056,
+      "pane": {
+        "center": [
+          0.0,
+          -5.455265256,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          25.799999999999997,
+          25.799999999999997
+        ],
+        "ellipse": true
+      },
+      "bounds": [
+        [
+          -27.983747133,
+          -5.573874471,
+          -27.992332263
+        ],
+        [
+          27.921483231000003,
+          0.0,
+          27.938225253
+        ]
+      ],
+      "parts": [
+        {
+          "name": "RoundWallMedium Head",
+          "collision_node": "RoundWallMedium",
+          "center": [
+            -0.031131951000000768,
+            -2.7869372355,
+            -0.027053505000001365
+          ],
+          "half": [
+            27.952615182000002,
+            2.7869372355,
+            27.965278758
+          ],
+          "triangles": 188
+        }
+      ],
+      "size": "Medium",
+      "scale": 1.5
+    },
+    {
+      "name": "RoundWallLarge",
+      "design": "Round",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\RoundWallLarge.nif",
+      "form_id": 2057,
+      "pane": {
+        "center": [
+          0.0,
+          -7.273687008,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          34.4,
+          34.4
+        ],
+        "ellipse": true
+      },
+      "bounds": [
+        [
+          -37.311662844,
+          -7.4318326279999996,
+          -37.323109684
+        ],
+        [
+          37.228644308,
+          0.0,
+          37.250967004
+        ]
+      ],
+      "parts": [
+        {
+          "name": "RoundWallLarge Head",
+          "collision_node": "RoundWallLarge",
+          "center": [
+            -0.041509267999998656,
+            -3.7159163139999998,
+            -0.03607133999999945
+          ],
+          "half": [
+            37.270153576,
+            3.7159163139999998,
+            37.287038344
+          ],
+          "triangles": 188
+        }
+      ],
+      "size": "Large",
+      "scale": 2.0
+    },
+    {
+      "name": "CabinetUnitWall",
+      "design": "CabinetUnit",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\CabinetUnitWall.nif",
+      "form_id": 2058,
+      "pane": {
+        "center": [
+          0.0,
+          -8.794799805,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          15.73828125,
+          21.1484375
+        ],
+        "ellipse": false
+      },
+      "bounds": [
+        [
+          -23.23828125,
+          -13.583862305,
+          -26.4140625
+        ],
+        [
+          25.01171875,
+          0.0,
+          26.1484375
+        ]
+      ],
+      "parts": [
+        {
+          "name": "CabinetUnitWall Head",
+          "collision_node": "CabinetUnitWall",
+          "center": [
+            0.88671875,
+            -6.7919311525,
+            -0.1328125
+          ],
+          "half": [
+            24.125,
+            6.7919311525,
+            26.28125
+          ],
+          "triangles": 1848
+        }
+      ]
+    },
+    {
+      "name": "RoundMetalWall",
+      "design": "RoundMetal",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\RoundMetalWall.nif",
+      "form_id": 2059,
+      "pane": {
+        "center": [
+          -6.983699999999999,
+          -51.740275,
+          19.67705000000001
+        ],
+        "normal": [
+          0.7424608869071821,
+          -0.5079206067369232,
+          0.43677052174453834
+        ],
+        "tangent": [
+          -0.17785127404027337,
+          -0.7780635656898827,
+          -0.6024832048017581
+        ],
+        "bitangent": [
+          0.6458488644685008,
+          0.3696400208282937,
+          -0.6680160920717453
+        ],
+        "half": [
+          8.6,
+          8.6
+        ],
+        "ellipse": true
+      },
+      "bounds": [
+        [
+          -14.71875,
+          -62.609375,
+          -27.96875
+        ],
+        [
+          14.71875,
+          0.0,
+          27.96875
+        ]
+      ],
+      "parts": [
+        {
+          "name": "RoundMetalWall Head",
+          "collision_node": "RoundMetalWall",
+          "center": [
+            0.0,
+            -31.3046875,
+            0.0
+          ],
+          "half": [
+            14.71875,
+            31.3046875,
+            27.96875
+          ],
+          "triangles": 1954
+        }
+      ]
+    },
+    {
+      "name": "CabinetWallVeryLarge",
+      "design": "Cabinet",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\CabinetWallVeryLarge.nif",
+      "form_id": 2060,
+      "pane": {
+        "center": [
+          0.0,
+          -3.09375,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          62.953125,
+          169.1875
+        ],
+        "ellipse": false
+      },
+      "bounds": [
+        [
+          -64.703125,
+          -3.09375,
+          -172.6875
+        ],
+        [
+          64.734375,
+          0.0,
+          172.8125
+        ]
+      ],
+      "parts": [
+        {
+          "name": "CabinetWallVeryLarge Head",
+          "collision_node": "CabinetWallVeryLarge",
+          "center": [
+            0.015625,
+            -1.546875,
+            0.0625
+          ],
+          "half": [
+            64.71875,
+            1.546875,
+            172.75
+          ],
+          "triangles": 18
+        }
+      ],
+      "size": "Very Large",
+      "scale": 4.0
+    },
+    {
+      "name": "CabinetWallGigantic",
+      "design": "Cabinet",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\CabinetWallGigantic.nif",
+      "form_id": 2061,
+      "pane": {
+        "center": [
+          0.0,
+          -6.1875,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          338.375,
+          125.90625
+        ],
+        "ellipse": false
+      },
+      "bounds": [
+        [
+          -345.375,
+          -6.1875,
+          -129.46875
+        ],
+        [
+          345.625,
+          0.0,
+          129.40625
+        ]
+      ],
+      "parts": [
+        {
+          "name": "CabinetWallGigantic Head",
+          "collision_node": "CabinetWallGigantic",
+          "center": [
+            0.125,
+            -3.09375,
+            -0.03125
+          ],
+          "half": [
+            345.5,
+            3.09375,
+            129.4375
+          ],
+          "triangles": 18
+        }
+      ],
+      "size": "Gigantic",
+      "scale": 8.0
+    },
+    {
+      "name": "RoundWallVeryLarge",
+      "design": "Round",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\RoundWallVeryLarge.nif",
+      "form_id": 2062,
+      "pane": {
+        "center": [
+          0.0,
+          -14.547374016,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          68.8,
+          68.8
+        ],
+        "ellipse": true
+      },
+      "bounds": [
+        [
+          -74.623325688,
+          -14.863665255999999,
+          -74.646219368
+        ],
+        [
+          74.457288616,
+          0.0,
+          74.501934008
+        ]
+      ],
+      "parts": [
+        {
+          "name": "RoundWallVeryLarge Head",
+          "collision_node": "RoundWallVeryLarge",
+          "center": [
+            -0.08301853599999731,
+            -7.4318326279999996,
+            -0.0721426799999989
+          ],
+          "half": [
+            74.540307152,
+            7.4318326279999996,
+            74.574076688
+          ],
+          "triangles": 188
+        }
+      ],
+      "size": "Very Large",
+      "scale": 4.0
+    },
+    {
+      "name": "RoundWallGigantic",
+      "design": "Round",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\RoundWallGigantic.nif",
+      "form_id": 2063,
+      "pane": {
+        "center": [
+          0.0,
+          -29.094748032,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          137.6,
+          137.6
+        ],
+        "ellipse": true
+      },
+      "bounds": [
+        [
+          -149.246651376,
+          -29.727330511999998,
+          -149.292438736
+        ],
+        [
+          148.914577232,
+          0.0,
+          149.003868016
+        ]
+      ],
+      "parts": [
+        {
+          "name": "RoundWallGigantic Head",
+          "collision_node": "RoundWallGigantic",
+          "center": [
+            -0.16603707199999462,
+            -14.863665255999999,
+            -0.1442853599999978
+          ],
+          "half": [
+            149.080614304,
+            14.863665255999999,
+            149.148153376
+          ],
+          "triangles": 188
+        }
+      ],
+      "size": "Gigantic",
+      "scale": 8.0
+    },
+    {
+      "name": "CrackedMirror01",
+      "design": "Cracked",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\Cracked\\Mirror01.nif",
+      "form_id": 2064,
+      "pane": {
+        "center": [
+          0.0,
+          -0.00118494,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          21.125,
+          31.21875
+        ],
+        "ellipse": false
+      },
+      "bounds": [
+        [
+          -21.125,
+          -1.927,
+          -31.219
+        ],
+        [
+          21.125,
+          0.0,
+          31.219
+        ]
+      ],
+      "parts": [],
+      "size": "Tall A",
+      "scale": 1.0
+    },
+    {
+      "name": "CrackedMirror01a",
+      "design": "Cracked",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\Cracked\\Mirror01a.nif",
+      "form_id": 2065,
+      "pane": {
+        "center": [
+          0.0,
+          -0.000422001,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          21.125,
+          31.21875
+        ],
+        "ellipse": false
+      },
+      "bounds": [
+        [
+          -21.125,
+          -1.927,
+          -31.219
+        ],
+        [
+          21.125,
+          0.0,
+          31.219
+        ]
+      ],
+      "parts": [],
+      "size": "Tall B",
+      "scale": 1.0
+    },
+    {
+      "name": "CrackedMirror02",
+      "design": "Cracked",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\Cracked\\Mirror02.nif",
+      "form_id": 2066,
+      "pane": {
+        "center": [
+          -0.0078125,
+          -1.4305e-05,
+          -0.0078125
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          18.0078125,
+          18.4296875
+        ],
+        "ellipse": false
+      },
+      "bounds": [
+        [
+          -20.953,
+          -1.537,
+          -21.109
+        ],
+        [
+          20.953,
+          0.0,
+          21.109
+        ]
+      ],
+      "parts": [],
+      "size": "Square A",
+      "scale": 1.0
+    },
+    {
+      "name": "CrackedMirror02a",
+      "design": "Cracked",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\Cracked\\Mirror02a.nif",
+      "form_id": 2067,
+      "pane": {
+        "center": [
+          -0.0078125,
+          -1.4305e-05,
+          -0.0078125
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          18.0078125,
+          18.4296875
+        ],
+        "ellipse": false
+      },
+      "bounds": [
+        [
+          -20.953,
+          -1.537,
+          -21.109
+        ],
+        [
+          20.953,
+          0.0,
+          21.109
+        ]
+      ],
+      "parts": [],
+      "size": "Square B",
+      "scale": 1.0
+    },
+    {
+      "name": "CrackedMirror03",
+      "design": "Cracked",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\Cracked\\Mirror03.nif",
+      "form_id": 2068,
+      "pane": {
+        "center": [
+          0.0,
+          0.000484467,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          11.734375,
+          18.40625
+        ],
+        "ellipse": false
+      },
+      "bounds": [
+        [
+          -14.68,
+          -1.537,
+          -21.109
+        ],
+        [
+          14.68,
+          0.0,
+          21.109
+        ]
+      ],
+      "parts": [],
+      "size": "Small A",
+      "scale": 1.0
+    },
+    {
+      "name": "CrackedMirror03a",
+      "design": "Cracked",
+      "placement": "Wall",
+      "buildable": true,
+      "model": "MirrorsOfFallout\\Workshop\\Cracked\\Mirror03a.nif",
+      "form_id": 2069,
+      "pane": {
+        "center": [
+          0.0,
+          -0.042451859,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "tangent": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bitangent": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "half": [
+          14.6796875,
+          21.109375
+        ],
+        "ellipse": false
+      },
+      "bounds": [
+        [
+          -14.68,
+          -1.537,
+          -21.109
+        ],
+        [
+          14.68,
+          0.0,
+          21.109
+        ]
+      ],
+      "parts": [],
+      "size": "Small B",
+      "scale": 1.0
+    }
+  ],
+  "source_sha256": {
+    "playerhouse_bathroommirror02.json": "e17f224e78b1b62d79a0ee193f7991790c9d930aa88b2f502b115445524e7791",
+    "playerhouse_bathroomsink01.json": "d5cd5937b8c89dba87de1e706ffac8879a2e1582cf8568873c3cc673ddd60a15",
+    "playerhouse_bathroomshavedrawer01.json": "c29cb934d62e33a96cc19ca991da8532f615f58adbdaa5c6aa83d5fac3f0242a"
+  }
+}

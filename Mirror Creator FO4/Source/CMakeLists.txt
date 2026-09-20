@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.25)
+project(MirrorsOfFalloutCK LANGUAGES CXX)
+if(NOT WIN32 OR NOT MSVC)
+    message(FATAL_ERROR "Use Windows and the Visual Studio C++ toolchain")
+endif()
+set(MIRROR_CK_STB_INCLUDE "${CMAKE_CURRENT_SOURCE_DIR}/third_party" CACHE PATH "stb headers")
+enable_testing()
+add_subdirectory(tools/ck)

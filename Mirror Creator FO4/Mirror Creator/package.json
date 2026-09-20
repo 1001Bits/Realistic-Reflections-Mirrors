@@ -1,0 +1,340 @@
+{
+  "name": "Mirror Creator for Fallout 4",
+  "version": "1.0",
+  "game": "fallout4",
+  "preparedNifSchema": 1,
+  "multiAreaSelection": true,
+  "platform": "Windows x64",
+  "python": {
+    "version": "3.14.7",
+    "sha256": "d297e5ff019966817ad8502465176139f2d3d840fa4ed84b13bed399a6ab1f15",
+    "url": "https://www.python.org/ftp/python/3.14.7/python-3.14.7-embed-amd64.zip"
+  },
+  "files": [
+    {
+      "path": "COPYING",
+      "bytes": 34887,
+      "sha256": "5546ad8e1dd114ed3772a1b530d530593ef3eea748f91837120767944e22259b"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 3477,
+      "sha256": "3ccc594a6c332f0f92c395fb8854f4740115e29cfb6496b1ef671c4d8fcd36db"
+    },
+    {
+      "path": "Start Mirror Creator.cmd",
+      "bytes": 143,
+      "sha256": "ce32ed741b17bef900f40ae764eddf5bd1cf8d5de1c3f2e6335afb9571ccc8d6"
+    },
+    {
+      "path": "docs/MIRROR_CREATOR.md",
+      "bytes": 5593,
+      "sha256": "b986d46fa9668df6c4aefe693a904628535bf922632c3af83ca60ffc8d3833e8"
+    },
+    {
+      "path": "examples/Flat.nif",
+      "bytes": 1063,
+      "sha256": "48111789ab2c4834a88f486ef9ba4304fd82844082c9cba3da6f444f13e801d8"
+    },
+    {
+      "path": "examples/Hole.nif",
+      "bytes": 1179,
+      "sha256": "75a8473e145b150c7784075d6bd1a7bd6450493f82cd81fc5f0d46778f984090"
+    },
+    {
+      "path": "runtime/LICENSE.txt",
+      "bytes": 35407,
+      "sha256": "935cf13e19f8c31b497d20b05d73623431a226b230c3599bc30fa3348979bc68"
+    },
+    {
+      "path": "runtime/_asyncio.pyd",
+      "bytes": 78048,
+      "sha256": "f9594a2a4f45570dbfdf1f3471194ae7b27dc117c54b9af6bc22df9c93830f8b"
+    },
+    {
+      "path": "runtime/_bz2.pyd",
+      "bytes": 88288,
+      "sha256": "b938073c85cf6b9fe80556d7899ed1901e5e60b7adea2832442376239fb36b36"
+    },
+    {
+      "path": "runtime/_ctypes.pyd",
+      "bytes": 142560,
+      "sha256": "408cc4e7a22ffa418ca52f5e13fe9268a3c50a2bc9de02b0530b555ef591bc5a"
+    },
+    {
+      "path": "runtime/_decimal.pyd",
+      "bytes": 291552,
+      "sha256": "bc3a61685825ae37a4cd2b2b87fa27af12e01575c4f920788ea806e6781a2c79"
+    },
+    {
+      "path": "runtime/_elementtree.pyd",
+      "bytes": 138976,
+      "sha256": "d8a17f9c831e313b440e19e0d26e6c0e7ed830ff1f657887cbc26664d6ef4973"
+    },
+    {
+      "path": "runtime/_hashlib.pyd",
+      "bytes": 69344,
+      "sha256": "5933ef5eda7c0bca0b3874a6e2c5f13b91b8f2cfc29bc46160df3212a1dbee79"
+    },
+    {
+      "path": "runtime/_lzma.pyd",
+      "bytes": 160992,
+      "sha256": "d2abf8db7fb0cf6285663b177991691a41b37e215c3d71fd087a98d8ec1bee63"
+    },
+    {
+      "path": "runtime/_multiprocessing.pyd",
+      "bytes": 38624,
+      "sha256": "cea83c9bf3131d079c20066b626f67ab33021b476777be2d7be26d1fa5e4eb66"
+    },
+    {
+      "path": "runtime/_overlapped.pyd",
+      "bytes": 58080,
+      "sha256": "1d7028683e6ec50c159139238f90a6c8431ece139a4764900ca11c941ba05d46"
+    },
+    {
+      "path": "runtime/_queue.pyd",
+      "bytes": 36576,
+      "sha256": "2fd8668f52b34d0e71ae48784bd2e7d35e5d99df6f641edb0fc279235a187c8e"
+    },
+    {
+      "path": "runtime/_remote_debugging.pyd",
+      "bytes": 93408,
+      "sha256": "32b58c85e29ecc2378eddfe367745998fdb131e1ab6bb84d54e16f33806b584c"
+    },
+    {
+      "path": "runtime/_socket.pyd",
+      "bytes": 87776,
+      "sha256": "02265dd0d0287f3ffd287ea5d8e3c918a5a056e8ef2c4529857f5e84ec9e2519"
+    },
+    {
+      "path": "runtime/_sqlite3.pyd",
+      "bytes": 132832,
+      "sha256": "ec9694e5929747e93e05bc32427d24350dc4de5074b61a37bc961c3048794a67"
+    },
+    {
+      "path": "runtime/_ssl.pyd",
+      "bytes": 190688,
+      "sha256": "4cfb154c7cc525d57020c0e64f2dd876a78b46cd38419446392478de6b7b13b8"
+    },
+    {
+      "path": "runtime/_uuid.pyd",
+      "bytes": 28384,
+      "sha256": "fbfd7fe8583b346ba20b174b2510c0830237f5092bdf9fc26da9d6b25b018385"
+    },
+    {
+      "path": "runtime/_wmi.pyd",
+      "bytes": 40160,
+      "sha256": "b6fd41f079da0c0054829855360e88b8b762f5c42bb474c2fa02eae367839ad2"
+    },
+    {
+      "path": "runtime/_zoneinfo.pyd",
+      "bytes": 51936,
+      "sha256": "07469c7fc221663e423a2e6023a5b2ead3b10d0b40eb297887f4447a1ff1b2a3"
+    },
+    {
+      "path": "runtime/_zstd.pyd",
+      "bytes": 503520,
+      "sha256": "33c6eca99470c3eb9d776b617c550ad41b002a668336f062a9ab7be677a7409a"
+    },
+    {
+      "path": "runtime/libcrypto-3.dll",
+      "bytes": 6242552,
+      "sha256": "53c529145339fb042a3dcd3a09c2d7753204f8b4fc79d99e0d31e69a33985958"
+    },
+    {
+      "path": "runtime/libffi-8.dll",
+      "bytes": 39696,
+      "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a"
+    },
+    {
+      "path": "runtime/libssl-3.dll",
+      "bytes": 1329912,
+      "sha256": "b17a87979862d19241edc4318f967e24c3ec356ed6c2368f561179fab2311001"
+    },
+    {
+      "path": "runtime/libtommath.dll",
+      "bytes": 95456,
+      "sha256": "bf18448a56de62e56adb5a50040c08648f0bcf556217de90eca283490ee8c0c3"
+    },
+    {
+      "path": "runtime/pyexpat.pyd",
+      "bytes": 222944,
+      "sha256": "e34347c4e11b2ecc57df2ce1627ba7f98fd076e9df59951e9034f5aa8e95a2fc"
+    },
+    {
+      "path": "runtime/python.cat",
+      "bytes": 600973,
+      "sha256": "bd98c1a5acc6dc6850425221a755506571eac182cb0aa85f2f45a9a077a3c71b"
+    },
+    {
+      "path": "runtime/python.exe",
+      "bytes": 106208,
+      "sha256": "4942b86a6597e5aee0128daa00050ed79bc21f6e709a78eb19cbfeb0c2f39ac9"
+    },
+    {
+      "path": "runtime/python3.dll",
+      "bytes": 73952,
+      "sha256": "6c45910e7c82617ca6360820de861699cc99f9efee434df290aa4c6e38f39886"
+    },
+    {
+      "path": "runtime/python314._pth",
+      "bytes": 40,
+      "sha256": "63d505ae8e0d625dcb3d212c66f0368a2a57bbf6df01b58d76ad1840378dcbb6"
+    },
+    {
+      "path": "runtime/python314.dll",
+      "bytes": 6785760,
+      "sha256": "0f9857ffdfe010fe6b99328d58c2e3c7472ce75f336bf9c2ad9bd5bca3bce700"
+    },
+    {
+      "path": "runtime/python314.zip",
+      "bytes": 4138882,
+      "sha256": "5a7a66daf1a2c2e3c8d7a4a0d095685ec301efc3ef28cc2419e3041bf5729b65"
+    },
+    {
+      "path": "runtime/pythonw.exe",
+      "bytes": 104672,
+      "sha256": "c197268f7e7cf2848b8c1ae59bbd0e0c14defe668a2d365302137ea929b47769"
+    },
+    {
+      "path": "runtime/select.pyd",
+      "bytes": 33504,
+      "sha256": "722328e7fad8048057fc966474ba73966d2ceebaa32e7344cce09640ab4dc9bd"
+    },
+    {
+      "path": "runtime/sqlite3.dll",
+      "bytes": 1584864,
+      "sha256": "d3e60dd22e62c9fbdb64b31b1b8c48782e1d4958d04d0bf830cffd31ace3275f"
+    },
+    {
+      "path": "runtime/unicodedata.pyd",
+      "bytes": 759008,
+      "sha256": "280b09bd97b598d18c0ed9542dc18ed35fa57a16e84f8e65fd9c6e96516c28d6"
+    },
+    {
+      "path": "runtime/vcruntime140.dll",
+      "bytes": 178616,
+      "sha256": "d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7"
+    },
+    {
+      "path": "runtime/vcruntime140_1.dll",
+      "bytes": 50112,
+      "sha256": "a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e"
+    },
+    {
+      "path": "runtime/winsound.pyd",
+      "bytes": 32992,
+      "sha256": "6a27340660de89d5da59445a77ac6b08d471e373304ce7294c198238f09f2dc2"
+    },
+    {
+      "path": "tests/mirror_creator/browser_smoke.py",
+      "bytes": 5875,
+      "sha256": "1a85a8790e5d7c02f2b2fba5addc4dcd0d4fa750df3f0d86dc1473cd6921d04a"
+    },
+    {
+      "path": "tests/mirror_creator/test_creator.py",
+      "bytes": 12098,
+      "sha256": "0a9bf14b14c5b32010aefd527cbdb5bef724c2dbd932d99349df6b757cf623b7"
+    },
+    {
+      "path": "tools/ck/tests/fixtures/CurvedReject.nif",
+      "bytes": 1071,
+      "sha256": "7ff2bcc3e952517ea623fbbe50ff6fa1178b72aeb006f6cbd7ea10a98388063f"
+    },
+    {
+      "path": "tools/ck/tests/fixtures/Flat.nif",
+      "bytes": 1063,
+      "sha256": "48111789ab2c4834a88f486ef9ba4304fd82844082c9cba3da6f444f13e801d8"
+    },
+    {
+      "path": "tools/ck/tests/fixtures/Hole.nif",
+      "bytes": 1179,
+      "sha256": "75a8473e145b150c7784075d6bd1a7bd6450493f82cd81fc5f0d46778f984090"
+    },
+    {
+      "path": "tools/mirror_creator/README.txt",
+      "bytes": 3477,
+      "sha256": "3ccc594a6c332f0f92c395fb8854f4740115e29cfb6496b1ef671c4d8fcd36db"
+    },
+    {
+      "path": "tools/mirror_creator/Start Mirror Creator.cmd",
+      "bytes": 119,
+      "sha256": "f02921cda538339bb1d2e0fd1e18e8fee47f8818f570ba95bb9f24446b767bd9"
+    },
+    {
+      "path": "tools/mirror_creator/Start-MirrorCreator.ps1",
+      "bytes": 2552,
+      "sha256": "ff1a65364e25053d513f913677dbf6f25ba7f1aa197b1c51ee30a4e42e351a5b"
+    },
+    {
+      "path": "tools/mirror_creator/mirror_creator.py",
+      "bytes": 9822,
+      "sha256": "96ca788d49e9e064b4feb311fe92c15545d079b0e7c523f3c090cf7752c585af"
+    },
+    {
+      "path": "tools/mirror_creator/mirror_creator_areas.py",
+      "bytes": 4143,
+      "sha256": "19bff522cea522ac552924885f6301ce56ef365d6d1050fd6e8efbbbadcca1fa"
+    },
+    {
+      "path": "tools/mirror_creator/mirror_creator_core.py",
+      "bytes": 18998,
+      "sha256": "4ecd768574ff377da26227041f80e176c1b6832e525a631be04fb18e66439476"
+    },
+    {
+      "path": "tools/mirror_creator/mirror_creator_export.py",
+      "bytes": 9431,
+      "sha256": "c67d77aa68e9527b84fe639f624953ff9111c0abe8c52a0b4f3dfe46862554e5"
+    },
+    {
+      "path": "tools/mirror_creator/mirror_creator_web/app.js",
+      "bytes": 16476,
+      "sha256": "229c52d6697f0c713ea1c9332ea71510e8ba640559342e06071444e9a45ecdcd"
+    },
+    {
+      "path": "tools/mirror_creator/mirror_creator_web/index.html",
+      "bytes": 1467,
+      "sha256": "877e70ceae38f8eb18bb0e5d407fdcf0f6119de0d4754a305772a1c90f7064e6"
+    },
+    {
+      "path": "tools/mirror_creator/mirror_creator_web/style.css",
+      "bytes": 2723,
+      "sha256": "3dbcb484b2b9061298c532e2a56b776aa4e6c6fbe352f0064703d196a268cf26"
+    },
+    {
+      "path": "tools/mirror_creator/mirror_creator_web/vendor/LICENSE.three.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "tools/mirror_creator/mirror_creator_web/vendor/OrbitControls.js",
+      "bytes": 38703,
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+    },
+    {
+      "path": "tools/mirror_creator/mirror_creator_web/vendor/provenance.json",
+      "bytes": 1127,
+      "sha256": "84ccf465781d7106283df18ba916563c37356b3865fc902fe4dd8636cbe0093a"
+    },
+    {
+      "path": "tools/mirror_creator/mirror_creator_web/vendor/three.core.js",
+      "bytes": 381124,
+      "sha256": "61ba0df005b05991361d040d8ff670e1aadfd0ce7aeebd1fdb0725957a8957de"
+    },
+    {
+      "path": "tools/mirror_creator/mirror_creator_web/vendor/three.module.js",
+      "bytes": 338900,
+      "sha256": "16e8727a664785683044d8164615da974d906a825521e3e05011bfd4440203e2"
+    },
+    {
+      "path": "tools/mirror_creator/nif_block_edit.py",
+      "bytes": 9093,
+      "sha256": "a2f2d8f0b502764ae802f9235952bb503f821e5ca5115ec315f82b71cff1e9e3"
+    },
+    {
+      "path": "tools/mirror_creator/package.py",
+      "bytes": 8156,
+      "sha256": "80b4ce6aa3fd52ef40f5a72a9104a7da5b0f269af0cb9d3fdd0ffaeef47d7044"
+    }
+  ]
+}
