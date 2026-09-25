@@ -1,0 +1,2057 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "record": "TES4",
+      "flags": "00000001",
+      "formID": "00000000",
+      "revision": 0,
+      "version": 44,
+      "unknown": 0,
+      "fields": [
+        {
+          "type": "HEDR",
+          "hex": "9A99D93F49000000000E0000"
+        },
+        {
+          "type": "CNAM",
+          "text": "Mirrors of Skyrim"
+        },
+        {
+          "type": "MAST",
+          "text": "Skyrim.esm"
+        },
+        {
+          "type": "DATA",
+          "hex": "0000000000000000"
+        },
+        {
+          "type": "MAST",
+          "text": "Update.esm"
+        },
+        {
+          "type": "DATA",
+          "hex": "0000000000000000"
+        },
+        {
+          "type": "MAST",
+          "text": "HearthFires.esm"
+        },
+        {
+          "type": "DATA",
+          "hex": "0000000000000000"
+        },
+        {
+          "type": "MAST",
+          "text": "Dawnguard.esm"
+        },
+        {
+          "type": "DATA",
+          "hex": "0000000000000000"
+        },
+        {
+          "type": "MAST",
+          "text": "Dragonborn.esm"
+        },
+        {
+          "type": "DATA",
+          "hex": "0000000000000000"
+        },
+        {
+          "type": "MAST",
+          "text": "RealisticReflectionsMirrors.esm"
+        },
+        {
+          "type": "DATA",
+          "hex": "0000000000000000"
+        }
+      ]
+    },
+    {
+      "group": 0,
+      "label": "GLOB",
+      "stamp": 0,
+      "unknown": 0,
+      "version": 0,
+      "unknown2": 0,
+      "children": [
+        {
+          "record": "GLOB",
+          "flags": "00000000",
+          "formID": "06000826",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSCraftingEnabled"
+            },
+            {
+              "type": "FNAM",
+              "hex": "73"
+            },
+            {
+              "type": "FLTV",
+              "hex": "0000803F"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": 0,
+      "label": "ARMO",
+      "stamp": 0,
+      "unknown": 0,
+      "version": 0,
+      "unknown2": 0,
+      "children": [
+        {
+          "record": "ARMO",
+          "flags": "00000000",
+          "formID": "06000900",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSHandMirrorGildedRoundFiligreeArmor"
+            },
+            {
+              "type": "OBND",
+              "hex": "FEFFF5FFE1FF01000B000B00"
+            },
+            {
+              "type": "FULL",
+              "text": "Round Wooden Hand Mirror"
+            },
+            {
+              "type": "MOD2",
+              "text": "mirrors_of_skyrim\\hand_mirror\\gilded_noble_round_filigree_v1\\male-world.nif"
+            },
+            {
+              "type": "MO2T",
+              "hex": "020000000000000000000000"
+            },
+            {
+              "type": "MOD4",
+              "text": "mirrors_of_skyrim\\hand_mirror\\gilded_noble_round_filigree_v1\\female-world.nif"
+            },
+            {
+              "type": "MO4T",
+              "hex": "020000000000000000000000"
+            },
+            {
+              "type": "BOD2",
+              "hex": "0002000000000000"
+            },
+            {
+              "type": "ETYP",
+              "hex": "E8410100"
+            },
+            {
+              "type": "BIDS",
+              "hex": "FB830100"
+            },
+            {
+              "type": "BAMT",
+              "hex": "78690100"
+            },
+            {
+              "type": "RNAM",
+              "hex": "19000000"
+            },
+            {
+              "type": "KSIZ",
+              "hex": "02000000"
+            },
+            {
+              "type": "KWDA",
+              "hex": "59F90800B2650900"
+            },
+            {
+              "type": "DESC",
+              "hex": "00"
+            },
+            {
+              "type": "MODL",
+              "hex": "01090006"
+            },
+            {
+              "type": "DATA",
+              "hex": "FA0000000000803F"
+            },
+            {
+              "type": "DNAM",
+              "hex": "00000000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": 0,
+      "label": "ACTI",
+      "stamp": 0,
+      "unknown": 0,
+      "version": 0,
+      "unknown2": 0,
+      "children": [
+        {
+          "record": "ACTI",
+          "flags": "00000000",
+          "formID": "0600080F",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSPlacedStandingMirror01Static"
+            },
+            {
+              "type": "OBND",
+              "hex": "F8FFC4FF000008003C00BE00"
+            },
+            {
+              "type": "FULL",
+              "text": "Mirror"
+            },
+            {
+              "type": "MODL",
+              "text": "mirrors_of_skyrim\\placed\\mirror01.nif"
+            },
+            {
+              "type": "RNAM",
+              "hex": "53746F726500"
+            }
+          ]
+        },
+        {
+          "record": "ACTI",
+          "flags": "00000000",
+          "formID": "06000810",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSPlacedStandingMirror02Static"
+            },
+            {
+              "type": "OBND",
+              "hex": "F8FFC4FF000008003C00BE00"
+            },
+            {
+              "type": "FULL",
+              "text": "Mirror"
+            },
+            {
+              "type": "MODL",
+              "text": "mirrors_of_skyrim\\placed\\mirror02.nif"
+            },
+            {
+              "type": "RNAM",
+              "hex": "53746F726500"
+            }
+          ]
+        },
+        {
+          "record": "ACTI",
+          "flags": "00000000",
+          "formID": "06000811",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSPlacedStandingMirror03Static"
+            },
+            {
+              "type": "OBND",
+              "hex": "F8FFC4FF000008003C00BE00"
+            },
+            {
+              "type": "FULL",
+              "text": "Mirror"
+            },
+            {
+              "type": "MODL",
+              "text": "mirrors_of_skyrim\\placed\\mirror03.nif"
+            },
+            {
+              "type": "RNAM",
+              "hex": "53746F726500"
+            }
+          ]
+        },
+        {
+          "record": "ACTI",
+          "flags": "00000000",
+          "formID": "06000812",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSPlacedStandingMirror04Static"
+            },
+            {
+              "type": "OBND",
+              "hex": "F8FFC4FF000008003C00BE00"
+            },
+            {
+              "type": "FULL",
+              "text": "Mirror"
+            },
+            {
+              "type": "MODL",
+              "text": "mirrors_of_skyrim\\placed\\mirror04.nif"
+            },
+            {
+              "type": "RNAM",
+              "hex": "53746F726500"
+            }
+          ]
+        },
+        {
+          "record": "ACTI",
+          "flags": "00000000",
+          "formID": "06000813",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSPlacedStandingMirror05Static"
+            },
+            {
+              "type": "OBND",
+              "hex": "F8FFC4FF000008003C00BE00"
+            },
+            {
+              "type": "FULL",
+              "text": "Mirror"
+            },
+            {
+              "type": "MODL",
+              "text": "mirrors_of_skyrim\\placed\\mirror05.nif"
+            },
+            {
+              "type": "RNAM",
+              "hex": "53746F726500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": 0,
+      "label": "MISC",
+      "stamp": 0,
+      "unknown": 0,
+      "version": 0,
+      "unknown2": 0,
+      "children": [
+        {
+          "record": "MISC",
+          "flags": "00000000",
+          "formID": "06000805",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSStandingMirrorItem"
+            },
+            {
+              "type": "VMAD",
+              "hex": "05000200010015004D4F535374616E64696E674D6972726F724974656D0001000D00506C6163656D656E744974656D01010000FFFF05080006"
+            },
+            {
+              "type": "OBND",
+              "hex": "F8FFC4FF000008003C00BE00"
+            },
+            {
+              "type": "FULL",
+              "text": "Standing Mirror"
+            },
+            {
+              "type": "MODL",
+              "text": "mirrors_of_skyrim\\inventory\\mirror01.nif"
+            },
+            {
+              "type": "KSIZ",
+              "hex": "01000000"
+            },
+            {
+              "type": "KWDA",
+              "hex": "E9140900"
+            },
+            {
+              "type": "DATA",
+              "hex": "FA00000000004041"
+            }
+          ]
+        },
+        {
+          "record": "MISC",
+          "flags": "00000000",
+          "formID": "06000806",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSStandingMirrorWhiterunWoodItem"
+            },
+            {
+              "type": "VMAD",
+              "hex": "05000200010015004D4F535374616E64696E674D6972726F724974656D0001000D00506C6163656D656E744974656D01010000FFFF06080006"
+            },
+            {
+              "type": "OBND",
+              "hex": "F8FFC4FF000008003C00BE00"
+            },
+            {
+              "type": "FULL",
+              "text": "Whiterun Wooden Standing Mirror"
+            },
+            {
+              "type": "MODL",
+              "text": "mirrors_of_skyrim\\inventory\\mirror02.nif"
+            },
+            {
+              "type": "KSIZ",
+              "hex": "01000000"
+            },
+            {
+              "type": "KWDA",
+              "hex": "E9140900"
+            },
+            {
+              "type": "DATA",
+              "hex": "2C01000000004041"
+            }
+          ]
+        },
+        {
+          "record": "MISC",
+          "flags": "00000000",
+          "formID": "06000807",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSStandingMirrorNordicDarkWoodItem"
+            },
+            {
+              "type": "VMAD",
+              "hex": "05000200010015004D4F535374616E64696E674D6972726F724974656D0001000D00506C6163656D656E744974656D01010000FFFF07080006"
+            },
+            {
+              "type": "OBND",
+              "hex": "F8FFC4FF000008003C00BE00"
+            },
+            {
+              "type": "FULL",
+              "text": "Nordic Dark-Wood Standing Mirror"
+            },
+            {
+              "type": "MODL",
+              "text": "mirrors_of_skyrim\\inventory\\mirror03.nif"
+            },
+            {
+              "type": "KSIZ",
+              "hex": "01000000"
+            },
+            {
+              "type": "KWDA",
+              "hex": "E9140900"
+            },
+            {
+              "type": "DATA",
+              "hex": "5E01000000004041"
+            }
+          ]
+        },
+        {
+          "record": "MISC",
+          "flags": "00000000",
+          "formID": "06000808",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSStandingMirrorGildedNobleItem"
+            },
+            {
+              "type": "VMAD",
+              "hex": "05000200010015004D4F535374616E64696E674D6972726F724974656D0001000D00506C6163656D656E744974656D01010000FFFF08080006"
+            },
+            {
+              "type": "OBND",
+              "hex": "F8FFC4FF000008003C00BE00"
+            },
+            {
+              "type": "FULL",
+              "text": "Gilded Noble Standing Mirror"
+            },
+            {
+              "type": "MODL",
+              "text": "mirrors_of_skyrim\\inventory\\mirror04.nif"
+            },
+            {
+              "type": "KSIZ",
+              "hex": "01000000"
+            },
+            {
+              "type": "KWDA",
+              "hex": "E9140900"
+            },
+            {
+              "type": "DATA",
+              "hex": "EE02000000004041"
+            }
+          ]
+        },
+        {
+          "record": "MISC",
+          "flags": "00000000",
+          "formID": "06000809",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSStandingMirrorMarkarthBrassItem"
+            },
+            {
+              "type": "VMAD",
+              "hex": "05000200010015004D4F535374616E64696E674D6972726F724974656D0001000D00506C6163656D656E744974656D01010000FFFF09080006"
+            },
+            {
+              "type": "OBND",
+              "hex": "F8FFC4FF000008003C00BE00"
+            },
+            {
+              "type": "FULL",
+              "text": "Markarth Brass Standing Mirror"
+            },
+            {
+              "type": "MODL",
+              "text": "mirrors_of_skyrim\\inventory\\mirror05.nif"
+            },
+            {
+              "type": "KSIZ",
+              "hex": "01000000"
+            },
+            {
+              "type": "KWDA",
+              "hex": "E9140900"
+            },
+            {
+              "type": "DATA",
+              "hex": "5802000000004041"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": 0,
+      "label": "STAT",
+      "stamp": 0,
+      "unknown": 0,
+      "version": 0,
+      "unknown2": 0,
+      "children": [
+        {
+          "record": "STAT",
+          "flags": "00000000",
+          "formID": "0600080A",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSStandingMirrorPreview01Static"
+            },
+            {
+              "type": "OBND",
+              "hex": "F8FFC4FF000008003C00BE00"
+            },
+            {
+              "type": "MODL",
+              "text": "mirrors_of_skyrim\\preview\\mirror01.nif"
+            },
+            {
+              "type": "DNAM",
+              "hex": "0000B4420000000000000000"
+            }
+          ]
+        },
+        {
+          "record": "STAT",
+          "flags": "00000000",
+          "formID": "0600080B",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSStandingMirrorPreview02Static"
+            },
+            {
+              "type": "OBND",
+              "hex": "F8FFC4FF000008003C00BE00"
+            },
+            {
+              "type": "MODL",
+              "text": "mirrors_of_skyrim\\preview\\mirror02.nif"
+            },
+            {
+              "type": "DNAM",
+              "hex": "0000B4420000000000000000"
+            }
+          ]
+        },
+        {
+          "record": "STAT",
+          "flags": "00000000",
+          "formID": "0600080C",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSStandingMirrorPreview03Static"
+            },
+            {
+              "type": "OBND",
+              "hex": "F8FFC4FF000008003C00BE00"
+            },
+            {
+              "type": "MODL",
+              "text": "mirrors_of_skyrim\\preview\\mirror03.nif"
+            },
+            {
+              "type": "DNAM",
+              "hex": "0000B4420000000000000000"
+            }
+          ]
+        },
+        {
+          "record": "STAT",
+          "flags": "00000000",
+          "formID": "0600080D",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSStandingMirrorPreview04Static"
+            },
+            {
+              "type": "OBND",
+              "hex": "F8FFC4FF000008003C00BE00"
+            },
+            {
+              "type": "MODL",
+              "text": "mirrors_of_skyrim\\preview\\mirror04.nif"
+            },
+            {
+              "type": "DNAM",
+              "hex": "0000B4420000000000000000"
+            }
+          ]
+        },
+        {
+          "record": "STAT",
+          "flags": "00000000",
+          "formID": "0600080E",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSStandingMirrorPreview05Static"
+            },
+            {
+              "type": "OBND",
+              "hex": "F8FFC4FF000008003C00BE00"
+            },
+            {
+              "type": "MODL",
+              "text": "mirrors_of_skyrim\\preview\\mirror05.nif"
+            },
+            {
+              "type": "DNAM",
+              "hex": "0000B4420000000000000000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": 0,
+      "label": "COBJ",
+      "stamp": 0,
+      "unknown": 0,
+      "version": 0,
+      "unknown2": 0,
+      "children": [
+        {
+          "record": "COBJ",
+          "flags": "00000000",
+          "formID": "06000820",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSRecipeHandMirror"
+            },
+            {
+              "type": "COCT",
+              "hex": "02000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "93F9060002000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "695A000201000000"
+            },
+            {
+              "type": "CTDA",
+              "hex": "000000000000803F4A00000026080006000000000000000000000000FFFFFFFF"
+            },
+            {
+              "type": "CNAM",
+              "hex": "00090006"
+            },
+            {
+              "type": "BNAM",
+              "hex": "05810800"
+            },
+            {
+              "type": "NAM1",
+              "hex": "0100"
+            }
+          ]
+        },
+        {
+          "record": "COBJ",
+          "flags": "00000000",
+          "formID": "06000821",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSRecipePlainMirror"
+            },
+            {
+              "type": "COCT",
+              "hex": "03000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "E3AC050002000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "E4AC050002000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "93F9060002000000"
+            },
+            {
+              "type": "CTDA",
+              "hex": "000000000000803F4A00000026080006000000000000000000000000FFFFFFFF"
+            },
+            {
+              "type": "CNAM",
+              "hex": "05080006"
+            },
+            {
+              "type": "BNAM",
+              "hex": "05810800"
+            },
+            {
+              "type": "NAM1",
+              "hex": "0100"
+            }
+          ]
+        },
+        {
+          "record": "COBJ",
+          "flags": "00000000",
+          "formID": "06000822",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSRecipeWoodMirror"
+            },
+            {
+              "type": "COCT",
+              "hex": "03000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "E3AC050002000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "E4AC050002000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "93F9060002000000"
+            },
+            {
+              "type": "CTDA",
+              "hex": "000000000000803F4A00000026080006000000000000000000000000FFFFFFFF"
+            },
+            {
+              "type": "CTDA",
+              "hex": "010000000000803F6701000072670100000000000200000014000000FFFFFFFF"
+            },
+            {
+              "type": "CTDA",
+              "hex": "000000000000803F670100005A8A0100000000000200000014000000FFFFFFFF"
+            },
+            {
+              "type": "CNAM",
+              "hex": "06080006"
+            },
+            {
+              "type": "BNAM",
+              "hex": "05810800"
+            },
+            {
+              "type": "NAM1",
+              "hex": "0100"
+            }
+          ]
+        },
+        {
+          "record": "COBJ",
+          "flags": "00000000",
+          "formID": "06000823",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSRecipeNordicMirror"
+            },
+            {
+              "type": "COCT",
+              "hex": "03000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "E3AC050002000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "E4AC050002000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "93F9060002000000"
+            },
+            {
+              "type": "CTDA",
+              "hex": "000000000000803F4A00000026080006000000000000000000000000FFFFFFFF"
+            },
+            {
+              "type": "CTDA",
+              "hex": "010000000000803F670100006A670100000000000200000014000000FFFFFFFF"
+            },
+            {
+              "type": "CTDA",
+              "hex": "010000000000803F670100006B670100000000000200000014000000FFFFFFFF"
+            },
+            {
+              "type": "CTDA",
+              "hex": "000000000000803F670100005A8A0100000000000200000014000000FFFFFFFF"
+            },
+            {
+              "type": "CNAM",
+              "hex": "07080006"
+            },
+            {
+              "type": "BNAM",
+              "hex": "05810800"
+            },
+            {
+              "type": "NAM1",
+              "hex": "0100"
+            }
+          ]
+        },
+        {
+          "record": "COBJ",
+          "flags": "00000000",
+          "formID": "06000824",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSRecipeGildedMirror"
+            },
+            {
+              "type": "COCT",
+              "hex": "03000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "9EAD050002000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "E4AC050002000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "93F9060002000000"
+            },
+            {
+              "type": "CTDA",
+              "hex": "000000000000803F4A00000026080006000000000000000000000000FFFFFFFF"
+            },
+            {
+              "type": "CTDA",
+              "hex": "000000000000803F6701000070670100000000000200000014000000FFFFFFFF"
+            },
+            {
+              "type": "CNAM",
+              "hex": "08080006"
+            },
+            {
+              "type": "BNAM",
+              "hex": "05810800"
+            },
+            {
+              "type": "NAM1",
+              "hex": "0100"
+            }
+          ]
+        },
+        {
+          "record": "COBJ",
+          "flags": "00000000",
+          "formID": "06000825",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSRecipeBrassMirror"
+            },
+            {
+              "type": "COCT",
+              "hex": "03000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "A2B80D0002000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "E4AC050002000000"
+            },
+            {
+              "type": "CNTO",
+              "hex": "93F9060002000000"
+            },
+            {
+              "type": "CTDA",
+              "hex": "000000000000803F4A00000026080006000000000000000000000000FFFFFFFF"
+            },
+            {
+              "type": "CTDA",
+              "hex": "010000000000803F6701000069670100000000000200000014000000FFFFFFFF"
+            },
+            {
+              "type": "CTDA",
+              "hex": "000000000000803F670100005A8A0100000000000200000014000000FFFFFFFF"
+            },
+            {
+              "type": "CNAM",
+              "hex": "09080006"
+            },
+            {
+              "type": "BNAM",
+              "hex": "05810800"
+            },
+            {
+              "type": "NAM1",
+              "hex": "0100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": 0,
+      "label": "QUST",
+      "stamp": 0,
+      "unknown": 0,
+      "version": 0,
+      "unknown2": 0,
+      "children": [
+        {
+          "record": "QUST",
+          "flags": "00000000",
+          "formID": "06000840",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MirrorsOfSkyrimMCMQuest"
+            },
+            {
+              "type": "VMAD",
+              "hex": "05000200010012004D6972726F72734F66536B7972696D4D434D00000002000000000000"
+            },
+            {
+              "type": "FULL",
+              "text": "Mirrors of Skyrim Settings"
+            },
+            {
+              "type": "DNAM",
+              "hex": "010032000000000000000000"
+            },
+            {
+              "type": "NEXT",
+              "hex": ""
+            },
+            {
+              "type": "ANAM",
+              "hex": "00000000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": 0,
+      "label": "ARMA",
+      "stamp": 0,
+      "unknown": 0,
+      "version": 0,
+      "unknown2": 0,
+      "children": [
+        {
+          "record": "ARMA",
+          "flags": "00000000",
+          "formID": "06000901",
+          "revision": 0,
+          "version": 44,
+          "unknown": 0,
+          "fields": [
+            {
+              "type": "EDID",
+              "text": "MOSHandMirrorGildedRoundFiligreeArmorAddon"
+            },
+            {
+              "type": "BODT",
+              "hex": "0002000000A2CB0002000000"
+            },
+            {
+              "type": "RNAM",
+              "hex": "19000000"
+            },
+            {
+              "type": "DNAM",
+              "hex": "000000000000000000000000"
+            },
+            {
+              "type": "MOD2",
+              "text": "mirrors_of_skyrim\\hand_mirror\\gilded_noble_round_filigree_v1\\male-third-person.nif"
+            },
+            {
+              "type": "MO2T",
+              "hex": "020000000000000000000000"
+            },
+            {
+              "type": "MOD3",
+              "text": "mirrors_of_skyrim\\hand_mirror\\gilded_noble_round_filigree_v1\\female-third-person.nif"
+            },
+            {
+              "type": "MO3T",
+              "hex": "020000000000000000000000"
+            },
+            {
+              "type": "MOD4",
+              "text": "mirrors_of_skyrim\\hand_mirror\\gilded_noble_round_filigree_v1\\male-first-person.nif"
+            },
+            {
+              "type": "MO4T",
+              "hex": "020000000000000000000000"
+            },
+            {
+              "type": "MOD5",
+              "text": "mirrors_of_skyrim\\hand_mirror\\gilded_noble_round_filigree_v1\\female-first-person.nif"
+            },
+            {
+              "type": "MO5T",
+              "hex": "020000000000000000000000"
+            },
+            {
+              "type": "MODL",
+              "text": "@7\u0001"
+            },
+            {
+              "type": "MODL",
+              "hex": "3A880800"
+            },
+            {
+              "type": "MODL",
+              "text": "A7\u0001"
+            },
+            {
+              "type": "MODL",
+              "hex": "3C880800"
+            },
+            {
+              "type": "MODL",
+              "text": "B7\u0001"
+            },
+            {
+              "type": "MODL",
+              "hex": "3D880800"
+            },
+            {
+              "type": "MODL",
+              "hex": "530D0000"
+            },
+            {
+              "type": "MODL",
+              "hex": "D87C0600"
+            },
+            {
+              "type": "MODL",
+              "hex": "BA820A00"
+            },
+            {
+              "type": "MODL",
+              "text": "C7\u0001"
+            },
+            {
+              "type": "MODL",
+              "hex": "40880800"
+            },
+            {
+              "type": "MODL",
+              "text": "D7\u0001"
+            },
+            {
+              "type": "MODL",
+              "hex": "44880800"
+            },
+            {
+              "type": "MODL",
+              "text": "E7\u0001"
+            },
+            {
+              "type": "MODL",
+              "hex": "45880800"
+            },
+            {
+              "type": "MODL",
+              "text": "\nv\u0010"
+            },
+            {
+              "type": "MODL",
+              "text": "F7\u0001"
+            },
+            {
+              "type": "MODL",
+              "hex": "94870800"
+            },
+            {
+              "type": "MODL",
+              "text": "G7\u0001"
+            },
+            {
+              "type": "MODL",
+              "hex": "B9820A00"
+            },
+            {
+              "type": "MODL",
+              "text": "H7\u0001"
+            },
+            {
+              "type": "MODL",
+              "hex": "46880800"
+            },
+            {
+              "type": "MODL",
+              "hex": "98790B00"
+            },
+            {
+              "type": "MODL",
+              "text": "I7\u0001"
+            },
+            {
+              "type": "MODL",
+              "hex": "84880800"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": 0,
+      "label": "CELL",
+      "stamp": 0,
+      "unknown": 0,
+      "version": 0,
+      "unknown2": 0,
+      "children": [
+        {
+          "group": 2,
+          "label": "00000000",
+          "stamp": 0,
+          "unknown": 0,
+          "version": 0,
+          "unknown2": 0,
+          "children": [
+            {
+              "group": 3,
+              "label": "00000006",
+              "stamp": 0,
+              "unknown": 0,
+              "version": 0,
+              "unknown2": 0,
+              "children": [
+                {
+                  "record": "CELL",
+                  "flags": "00000000",
+                  "formID": "000165A8",
+                  "revision": 0,
+                  "version": 44,
+                  "unknown": 0,
+                  "fields": [
+                    {
+                      "type": "EDID",
+                      "text": "WhiterunBreezehome"
+                    },
+                    {
+                      "type": "FULL",
+                      "text": "Breezehome"
+                    },
+                    {
+                      "type": "DATA",
+                      "hex": "A100"
+                    },
+                    {
+                      "type": "XCLL",
+                      "hex": "1E1E280000000000000000000000000000000000000000000000000000000000000000000000803F0F0D0C000C0D0B000E0D0C000E0C0C000606050015131200000000000000803F000000000000803F00000000000000009F000000"
+                    },
+                    {
+                      "type": "LTMP",
+                      "hex": "5D170600"
+                    },
+                    {
+                      "type": "XCLW",
+                      "hex": "00000000"
+                    },
+                    {
+                      "type": "XLCN",
+                      "hex": "6FF80100"
+                    },
+                    {
+                      "type": "XCMO",
+                      "hex": "CAC30200"
+                    },
+                    {
+                      "type": "XCIM",
+                      "hex": "D26E0300"
+                    },
+                    {
+                      "type": "XCCM",
+                      "hex": "08040700"
+                    },
+                    {
+                      "type": "XEZN",
+                      "hex": "B1900F00"
+                    },
+                    {
+                      "type": "XCAS",
+                      "hex": "6B5B0C00"
+                    }
+                  ]
+                },
+                {
+                  "group": 6,
+                  "label": "000165A8",
+                  "stamp": 0,
+                  "unknown": 0,
+                  "version": 0,
+                  "unknown2": 0,
+                  "children": [
+                    {
+                      "group": 8,
+                      "label": "000165A8",
+                      "stamp": 0,
+                      "unknown": 0,
+                      "version": 0,
+                      "unknown2": 0,
+                      "children": [
+                        {
+                          "record": "REFR",
+                          "flags": "00000C00",
+                          "formID": "06000B0B",
+                          "revision": 0,
+                          "version": 44,
+                          "unknown": 0,
+                          "fields": [
+                            {
+                              "type": "EDID",
+                              "text": "MOSBreezehomeHandMirrorEnable"
+                            },
+                            {
+                              "type": "NAME",
+                              "hex": "3B000000"
+                            },
+                            {
+                              "type": "DATA",
+                              "hex": "1B7751C38A4FBB42D70EC04300000000DB0FC93F67664640"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "group": 9,
+                      "label": "000165A8",
+                      "stamp": 0,
+                      "unknown": 0,
+                      "version": 0,
+                      "unknown2": 0,
+                      "children": [
+                        {
+                          "record": "REFR",
+                          "flags": "00000000",
+                          "formID": "06000A05",
+                          "revision": 0,
+                          "version": 44,
+                          "unknown": 0,
+                          "fields": [
+                            {
+                              "type": "EDID",
+                              "text": "MOSBreezehomeHandMirror"
+                            },
+                            {
+                              "type": "NAME",
+                              "hex": "00090006"
+                            },
+                            {
+                              "type": "XOWN",
+                              "hex": "07000000"
+                            },
+                            {
+                              "type": "XESP",
+                              "hex": "0B0B000600000000"
+                            },
+                            {
+                              "type": "XSCL",
+                              "hex": "0000803F"
+                            },
+                            {
+                              "type": "DATA",
+                              "hex": "1B7751C38A4FBB42D70EC04300000000DB0FC93F67664640"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "group": 3,
+              "label": "00000009",
+              "stamp": 0,
+              "unknown": 0,
+              "version": 0,
+              "unknown2": 0,
+              "children": [
+                {
+                  "record": "CELL",
+                  "flags": "00000000",
+                  "formID": "000133C6",
+                  "revision": 0,
+                  "version": 44,
+                  "unknown": 0,
+                  "fields": [
+                    {
+                      "type": "EDID",
+                      "text": "RiverwoodSleepingGiantInn"
+                    },
+                    {
+                      "type": "FULL",
+                      "text": "Sleeping Giant Inn"
+                    },
+                    {
+                      "type": "DATA",
+                      "hex": "A100"
+                    },
+                    {
+                      "type": "XCLL",
+                      "hex": "2D303000232832001F342E000000000000007A45000000009600000000000000000000000000803F3130320028302D002D3230002D2D30001516150044494A001F342E000000803F1F342E000000803F00000000000000009F000000"
+                    },
+                    {
+                      "type": "LTMP",
+                      "hex": "96110A00"
+                    },
+                    {
+                      "type": "XCLW",
+                      "hex": "000000CF"
+                    },
+                    {
+                      "type": "XLCN",
+                      "hex": "8CCB0100"
+                    },
+                    {
+                      "type": "XOWN",
+                      "hex": "445D0300"
+                    },
+                    {
+                      "type": "XCCM",
+                      "hex": "2DA70200"
+                    },
+                    {
+                      "type": "XCIM",
+                      "hex": "609B0500"
+                    },
+                    {
+                      "type": "XCMO",
+                      "hex": "AB220600"
+                    },
+                    {
+                      "type": "XCAS",
+                      "hex": "0A5D0C00"
+                    }
+                  ]
+                },
+                {
+                  "group": 6,
+                  "label": "000133C6",
+                  "stamp": 0,
+                  "unknown": 0,
+                  "version": 0,
+                  "unknown2": 0,
+                  "children": [
+                    {
+                      "group": 8,
+                      "label": "000133C6",
+                      "stamp": 0,
+                      "unknown": 0,
+                      "version": 0,
+                      "unknown2": 0,
+                      "children": [
+                        {
+                          "record": "REFR",
+                          "flags": "00000C00",
+                          "formID": "06000B0E",
+                          "revision": 0,
+                          "version": 44,
+                          "unknown": 0,
+                          "fields": [
+                            {
+                              "type": "EDID",
+                              "text": "MOSSleepingGiantHandMirrorEnable"
+                            },
+                            {
+                              "type": "NAME",
+                              "hex": "3B000000"
+                            },
+                            {
+                              "type": "DATA",
+                              "hex": "A83555C4D36C5CC45E3E794200000000DB0FC93F43767740"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "group": 9,
+                      "label": "000133C6",
+                      "stamp": 0,
+                      "unknown": 0,
+                      "version": 0,
+                      "unknown2": 0,
+                      "children": [
+                        {
+                          "record": "REFR",
+                          "flags": "00000000",
+                          "formID": "06000A16",
+                          "revision": 0,
+                          "version": 44,
+                          "unknown": 0,
+                          "fields": [
+                            {
+                              "type": "EDID",
+                              "text": "MOSSleepingGiantHandMirror"
+                            },
+                            {
+                              "type": "NAME",
+                              "hex": "00090006"
+                            },
+                            {
+                              "type": "XOWN",
+                              "hex": "445D0300"
+                            },
+                            {
+                              "type": "XESP",
+                              "hex": "0E0B000600000000"
+                            },
+                            {
+                              "type": "XSCL",
+                              "hex": "0000803F"
+                            },
+                            {
+                              "type": "DATA",
+                              "hex": "A83555C4D36C5CC45E3E794200000000DB0FC93F43767740"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "group": 2,
+          "label": "00000006",
+          "stamp": 0,
+          "unknown": 0,
+          "version": 0,
+          "unknown2": 0,
+          "children": [
+            {
+              "group": 3,
+              "label": "00000008",
+              "stamp": 0,
+              "unknown": 0,
+              "version": 0,
+              "unknown2": 0,
+              "children": [
+                {
+                  "record": "CELL",
+                  "flags": "00000000",
+                  "formID": "00016A0E",
+                  "revision": 0,
+                  "version": 44,
+                  "unknown": 0,
+                  "fields": [
+                    {
+                      "type": "EDID",
+                      "text": "SolitudeWinkingSkeever"
+                    },
+                    {
+                      "type": "FULL",
+                      "text": "The Winking Skeever"
+                    },
+                    {
+                      "type": "DATA",
+                      "hex": "A100"
+                    },
+                    {
+                      "type": "XCLL",
+                      "hex": "514B3900241F1C00595F660000007A4300409C4500000000000000000000803F008009453333333F594B3B00484B3600514E390051473900262319007B725800596066000000803F59606600CDCC4C3F0000C84200504347FF070000"
+                    },
+                    {
+                      "type": "LTMP",
+                      "hex": "01AB0600"
+                    },
+                    {
+                      "type": "XCLW",
+                      "hex": "00000000"
+                    },
+                    {
+                      "type": "XLCN",
+                      "hex": "A5000200"
+                    },
+                    {
+                      "type": "XCIM",
+                      "hex": "B4BD0A00"
+                    },
+                    {
+                      "type": "XCMO",
+                      "hex": "35700100"
+                    },
+                    {
+                      "type": "XOWN",
+                      "hex": "03140C00"
+                    },
+                    {
+                      "type": "XILL",
+                      "hex": "04140C00"
+                    },
+                    {
+                      "type": "XCAS",
+                      "hex": "6D5B0C00"
+                    },
+                    {
+                      "type": "XCCM",
+                      "hex": "2A040700"
+                    }
+                  ]
+                },
+                {
+                  "group": 6,
+                  "label": "00016A0E",
+                  "stamp": 0,
+                  "unknown": 0,
+                  "version": 0,
+                  "unknown2": 0,
+                  "children": [
+                    {
+                      "group": 8,
+                      "label": "00016A0E",
+                      "stamp": 0,
+                      "unknown": 0,
+                      "version": 0,
+                      "unknown2": 0,
+                      "children": [
+                        {
+                          "record": "REFR",
+                          "flags": "00000C00",
+                          "formID": "06000B0F",
+                          "revision": 0,
+                          "version": 44,
+                          "unknown": 0,
+                          "fields": [
+                            {
+                              "type": "EDID",
+                              "text": "MOSWinkingSkeeverHandMirrorEnable"
+                            },
+                            {
+                              "type": "NAME",
+                              "hex": "3B000000"
+                            },
+                            {
+                              "type": "DATA",
+                              "hex": "6BCB5D440979F2C4D5C8B04300000000DB0FC93F55EE4A40"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "group": 9,
+                      "label": "00016A0E",
+                      "stamp": 0,
+                      "unknown": 0,
+                      "version": 0,
+                      "unknown2": 0,
+                      "children": [
+                        {
+                          "record": "REFR",
+                          "flags": "00000000",
+                          "formID": "06000A17",
+                          "revision": 0,
+                          "version": 44,
+                          "unknown": 0,
+                          "fields": [
+                            {
+                              "type": "EDID",
+                              "text": "MOSWinkingSkeeverHandMirror"
+                            },
+                            {
+                              "type": "NAME",
+                              "hex": "00090006"
+                            },
+                            {
+                              "type": "XOWN",
+                              "hex": "03140C00"
+                            },
+                            {
+                              "type": "XESP",
+                              "hex": "0F0B000600000000"
+                            },
+                            {
+                              "type": "XSCL",
+                              "hex": "0000803F"
+                            },
+                            {
+                              "type": "DATA",
+                              "hex": "6BCB5D440979F2C4D5C8B04300000000DB0FC93F55EE4A40"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "group": 2,
+          "label": "00000008",
+          "stamp": 0,
+          "unknown": 0,
+          "version": 0,
+          "unknown2": 0,
+          "children": [
+            {
+              "group": 3,
+              "label": "00000007",
+              "stamp": 0,
+              "unknown": 0,
+              "version": 0,
+              "unknown2": 0,
+              "children": [
+                {
+                  "record": "CELL",
+                  "flags": "00000000",
+                  "formID": "00016A06",
+                  "revision": 0,
+                  "version": 44,
+                  "unknown": 0,
+                  "fields": [
+                    {
+                      "type": "EDID",
+                      "text": "SolitudeProudspireManor"
+                    },
+                    {
+                      "type": "FULL",
+                      "text": "Proudspire Manor"
+                    },
+                    {
+                      "type": "DATA",
+                      "hex": "2100"
+                    },
+                    {
+                      "type": "XCLL",
+                      "hex": "80808000292818004D4D4D000000000000409C45000000005A0000000000000000409C453333333F594B3B00484B3600514E390051473900262319007B725800000000000000803F52523F00CDCC4C3F00409C450080BB4507000000"
+                    },
+                    {
+                      "type": "LTMP",
+                      "hex": "01AB0600"
+                    },
+                    {
+                      "type": "XCLW",
+                      "hex": "000000CF"
+                    },
+                    {
+                      "type": "XLCN",
+                      "hex": "98000200"
+                    },
+                    {
+                      "type": "XCIM",
+                      "hex": "1F460E00"
+                    },
+                    {
+                      "type": "XEZN",
+                      "hex": "B1900F00"
+                    },
+                    {
+                      "type": "XCMO",
+                      "hex": "CAC30200"
+                    },
+                    {
+                      "type": "XCAS",
+                      "hex": "6D5B0C00"
+                    }
+                  ]
+                },
+                {
+                  "group": 6,
+                  "label": "00016A06",
+                  "stamp": 0,
+                  "unknown": 0,
+                  "version": 0,
+                  "unknown2": 0,
+                  "children": [
+                    {
+                      "group": 8,
+                      "label": "00016A06",
+                      "stamp": 0,
+                      "unknown": 0,
+                      "version": 0,
+                      "unknown2": 0,
+                      "children": [
+                        {
+                          "record": "REFR",
+                          "flags": "00000C00",
+                          "formID": "06000B0D",
+                          "revision": 0,
+                          "version": 44,
+                          "unknown": 0,
+                          "fields": [
+                            {
+                              "type": "EDID",
+                              "text": "MOSProudspireManorHandMirrorEnable"
+                            },
+                            {
+                              "type": "NAME",
+                              "hex": "3B000000"
+                            },
+                            {
+                              "type": "DATA",
+                              "hex": "DB943D43BE7A80C4D5C8B04300000000DB0FC93FDB0FC93F"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "group": 9,
+                      "label": "00016A06",
+                      "stamp": 0,
+                      "unknown": 0,
+                      "version": 0,
+                      "unknown2": 0,
+                      "children": [
+                        {
+                          "record": "REFR",
+                          "flags": "00000000",
+                          "formID": "06000A07",
+                          "revision": 0,
+                          "version": 44,
+                          "unknown": 0,
+                          "fields": [
+                            {
+                              "type": "EDID",
+                              "text": "MOSProudspireManorHandMirror"
+                            },
+                            {
+                              "type": "NAME",
+                              "hex": "00090006"
+                            },
+                            {
+                              "type": "XOWN",
+                              "hex": "07000000"
+                            },
+                            {
+                              "type": "XESP",
+                              "hex": "0D0B000600000000"
+                            },
+                            {
+                              "type": "XSCL",
+                              "hex": "0000803F"
+                            },
+                            {
+                              "type": "DATA",
+                              "hex": "DB943D43BE7A80C4D5C8B04300000000DB0FC93FDB0FC93F"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "group": 2,
+          "label": "00000009",
+          "stamp": 0,
+          "unknown": 0,
+          "version": 0,
+          "unknown2": 0,
+          "children": [
+            {
+              "group": 3,
+              "label": "00000004",
+              "stamp": 0,
+              "unknown": 0,
+              "version": 0,
+              "unknown2": 0,
+              "children": [
+                {
+                  "record": "CELL",
+                  "flags": "00000000",
+                  "formID": "00016BDD",
+                  "revision": 0,
+                  "version": 44,
+                  "unknown": 0,
+                  "fields": [
+                    {
+                      "type": "EDID",
+                      "text": "RiftenHoneyside"
+                    },
+                    {
+                      "type": "FULL",
+                      "text": "Honeyside"
+                    },
+                    {
+                      "type": "DATA",
+                      "hex": "2100"
+                    },
+                    {
+                      "type": "XCLL",
+                      "hex": "1E1E280046464600000000000000000000000000000000000000000000000000000000000000803F211E29001A1E26001E1F28001E1C28000E0E12002D2D3D00000000000000803F000000000000803F00000000000000009D000000"
+                    },
+                    {
+                      "type": "LTMP",
+                      "hex": "57210B00"
+                    },
+                    {
+                      "type": "XCLW",
+                      "hex": "00000000"
+                    },
+                    {
+                      "type": "XLCN",
+                      "hex": "FDE00500"
+                    },
+                    {
+                      "type": "XCIM",
+                      "hex": "5C210B00"
+                    },
+                    {
+                      "type": "XCMO",
+                      "hex": "46D50600"
+                    },
+                    {
+                      "type": "XEZN",
+                      "hex": "B1900F00"
+                    },
+                    {
+                      "type": "XCAS",
+                      "hex": "61320E00"
+                    }
+                  ]
+                },
+                {
+                  "group": 6,
+                  "label": "00016BDD",
+                  "stamp": 0,
+                  "unknown": 0,
+                  "version": 0,
+                  "unknown2": 0,
+                  "children": [
+                    {
+                      "group": 8,
+                      "label": "00016BDD",
+                      "stamp": 0,
+                      "unknown": 0,
+                      "version": 0,
+                      "unknown2": 0,
+                      "children": [
+                        {
+                          "record": "REFR",
+                          "flags": "00000C00",
+                          "formID": "06000B0C",
+                          "revision": 0,
+                          "version": 44,
+                          "unknown": 0,
+                          "fields": [
+                            {
+                              "type": "EDID",
+                              "text": "MOSHoneysideHandMirrorEnable"
+                            },
+                            {
+                              "type": "NAME",
+                              "hex": "3B000000"
+                            },
+                            {
+                              "type": "DATA",
+                              "hex": "039CA8433EA99BC22B3E024300000000DB0FC93FDB0FC93F"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "group": 9,
+                      "label": "00016BDD",
+                      "stamp": 0,
+                      "unknown": 0,
+                      "version": 0,
+                      "unknown2": 0,
+                      "children": [
+                        {
+                          "record": "REFR",
+                          "flags": "00000000",
+                          "formID": "06000A06",
+                          "revision": 0,
+                          "version": 44,
+                          "unknown": 0,
+                          "fields": [
+                            {
+                              "type": "EDID",
+                              "text": "MOSHoneysideHandMirror"
+                            },
+                            {
+                              "type": "NAME",
+                              "hex": "00090006"
+                            },
+                            {
+                              "type": "XOWN",
+                              "hex": "07000000"
+                            },
+                            {
+                              "type": "XESP",
+                              "hex": "0C0B000600000000"
+                            },
+                            {
+                              "type": "XSCL",
+                              "hex": "0000803F"
+                            },
+                            {
+                              "type": "DATA",
+                              "hex": "039CA8433EA99BC22B3E024300000000DB0FC93FDB0FC93F"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
